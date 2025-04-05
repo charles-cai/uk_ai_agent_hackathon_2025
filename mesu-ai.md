@@ -86,7 +86,7 @@ MeSu AI Studio - A Web3/AI Bridge Linking Global GenZ fanfiction Communities and
 
 ## Slide 6: Conclusion
 
--  Mesu AI  millions of thousands of frustrated serial readers in the future.
+-  Mesu AI make millions keen serial readers happy in the future, fusing readers communities and creative authors together with Brand sponsors.
 -  Thank you for listening!
 -  Bilge CEO, Charles CTO, Mariya CMO, Louis COO
 
