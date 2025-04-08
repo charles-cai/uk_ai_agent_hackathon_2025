@@ -1,6 +1,101 @@
 # MeSu AI 
 
+
+https://dorahacks.io/hackathon/icaihack/buidl
 MeSu AI Studio - A Web3/AI Bridge Linking Global GenZ fanfiction Communities and Global Brands
+
+
+MeSu AI
+MeSu AI Studio - A Web3/AI Bridge Linking Global GenZ fan fiction Communities and Global Brands.
+The Problem
+	• People who are obsessed with a book often want to read it constantly, which is why they also enjoy reading fan fiction.
+Problem Outlines:
+	• 01: Problem 01
+		○ People can't access new chapters because they are not written yet.
+	• 02: Problem 02
+		○ In the fanfiction community, because it is a free platform sometimes writers stop uploading after some time even the fanfiction is successful.
+	• 03: Problem 03
+		○ People cannot write fiction that will satisfy them to read if they haven't developed the writing skills.
+
+Slide 4: MeSu AI: How it works?
+	• Concept: Control your own plot - People can create their own fiction.
+	• Technology Stack: Venice AI for image generation, Venice AI Researcher for Plot fine tuning, FLock.AI to fine tune a GenAI model for fanfiction, maintaining creative intent
+	• Business Model: Brands grant us their (new) products info and target audience. MeSu AI analyzes the existing stories, personalities of the main characters, finding the best fit Brands to embed. Mesu AI then generates the next chapter of the story with subtle embedded brands IP, fusing brands IP and story scenes, characters together, maintaining original author's creative intent.
+Process:
+	1. Upload a pdf (the story they want to read next chapter now) and ask MeSu AI to understand the characters and the writing style.
+	2. As the next step, they give a direction on what they want from the next chapter for our AI to write the chapter. They will choose the genre and control the plot while having a satisfying reading experience.
+Solutions:
+	• 01: Solution 01
+		○ People will be able to create their own fiction and read it without having to wait
+	• 02: Solution 02
+		○ People can engage with the community like AO3 and share their work with each other, creating a community sense.
+	• 03: Solution 03
+		○ They can choose how the characters look and once they have chosen the character, they can create and share images of the characters and story scenes with each other.
+![image](https://github.com/user-attachments/assets/c8285532-9df5-4375-8b12-38f9e29e2565)
+
+
+
+https://www.linkedin.com/in/mariya-hristova/
+https://www.linkedin.com/in/charlescai/
+https://www.linkedin.com/in/bilgemehvesoguzalp/
+
+
+Team
+
+Bilge Mehves Oguzalp - Co-founder & CEO
+Charles D Cai - Co-founder & CTO
+Mariya Hristova - Co-founder & CMO
+Louis D V - Media Industry Advisor
+
+wechat: Mevtics22 
+discord: @bilgemehves
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Slide 1: MeSu AI Presentation
 
