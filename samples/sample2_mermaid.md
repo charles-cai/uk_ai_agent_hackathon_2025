@@ -3,7 +3,10 @@
 1. Source: https://ariadnes-string.livejournal.com/30949.html
 2. Preposting: The following is a sample output from one of the reasoning model after analyzing the story (before prediction the next chapter; same can be applied to predicted chapter).  If you couldn't see the diagram, try open it inside Github Online Editor, or mermaidchart.com.
 3. Objective: This one demonstrates Time Lines (Scenes/plots):
+4. Viz (backup, Github failing to render large mermaid diagram right now):
+![image](https://github.com/user-attachments/assets/14dcadfa-ba2a-400b-9071-359ef6e4c3ab)
 
+ 
 ```mermaid
 graph TD
     %% --- Timeline: Sunday Afternoon ---
