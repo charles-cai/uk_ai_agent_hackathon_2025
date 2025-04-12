@@ -1,13 +1,10 @@
 # Knowledge Graph pre-processing of existing chapter(s)
 
-- Source: https://www.fanfiction.net/s/14390713/14/
-
-- Pre-posting result: The following is a sample output from one of the reasoning model after analyzing the story (before prediction the next chapter; same can be applied to predicted chapter).  If you couldn't see the diagram, try open it inside Github Online Editor, or mermaidchart.com.
-
-- Objective: This one demonstrates Property Graph of the story: 
-> NER=Nnode
+1. Source: https://www.fanfiction.net/s/14390713/14/
+2. Pre-posting result: The following is a sample output from one of the reasoning model after analyzing the story (before prediction the next chapter; same can be applied to predicted chapter).  If you couldn't see the diagram, try open it inside Github Online Editor, or mermaidchart.com.
+3. Objective: This one demonstrates Property Graph of the story: 
+> NER = Node
 > Verb = Edge
-
 
 ```mermaid
 graph TD
