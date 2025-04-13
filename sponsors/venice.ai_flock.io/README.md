@@ -47,6 +47,7 @@ DeepSeek R1 GRPO (Group Relative Policy Optimization) fine-tuning gives the best
 ```text
 unsloth
 vllm
+... bleu, rogue, meteor, ...
 ```
 
 Loading foundation model:
@@ -95,11 +96,11 @@ We need to build our own training dataset, leveraing millions of completed, open
 1. Assuming we have a `Book`, with Chapter[0] is `metadata`, like author, date version, summary... and `Chapter[1]-[n]`
 2. Create `[n-1]` Training Pair: `{existing_chapters, output_chapter}`, using markdown block `text` to join each chapter without interference
 
-> Chapter[0] + Chapter[1] --> Chapter[2]
-> Chapter[0] + Chapter[1]+[2] --> Chapter[3]
-> Chapter[0] + Chapter[1]+[2]+[3] --> Chapter[4]
-> ...
-> Chapter[0] + Chapter[1]+[2]+[3]+...[n-1] --> Chapter[n]
+- Chapter[0] + Chapter[1] --> Chapter[2]
+- Chapter[0] + Chapter[1]+[2] --> Chapter[3]
+- Chapter[0] + Chapter[1]+[2]+[3] --> Chapter[4]
+- ...
+- Chapter[0] + Chapter[1]+[2]+[3]+...[n-1] --> Chapter[n]
 
 3. For each training pair, use a resoning model to ask why new chapter is the way it is based on input chapters, wrap the result in <thinking> or <reasoning> tags, so we have a trippler training dataset: `{existing_chapters, output_chapter, reasoning}`.
 
@@ -342,11 +343,11 @@ if False:
 
 ### Next steps
 
-**AI Arena Scoring of the AI Writer Model**
+#### **AI Arena Scoring of the AI Writer Model**
 
-Hopefully I've clearly demonstrated out thought process and available tools / metrics could be tested.  As to AI Arena scoring, not like GSM8K math competition, there's only one answer, each reader might have different feedback of the AI generated contents. But the rewarding functions above could be used for AI Arena using Test datasets (i.e. we split open source book dataset, 70% for training, 30% for testing).
+Hopefully I've clearly explained our thought process and plan.  As to the AI Arena scoring, not like GSM8K math competition which has only one answer, in our case each reader might have different opinion on AI generated contents. But the rewarding functions above discussed could still be used for AI Arena, via Test datasets (i.e. we split open source book dataset, 70% for training, 30% for testing).
 
-**Brands IP Matching Embedded AD Service**
+#### **Brands IP Matching Embedded AD Service**
 This bit our current thought process is our reasoning AI Writer generates a few options for embedding Brands IP, but MeSu AI system prompt will not be changed (i.e. natural, subtle embedding without disrupting the user reading experience based on author's creative intent).  So here we are back to the test and proven appoach in media industry: Human In the Loop, let Brand decide which option to accept.
 
 Your feedback is much welcome and appreciated!
